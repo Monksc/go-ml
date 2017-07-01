@@ -1,4 +1,4 @@
-package main
+package ml
 
 func NNHelperConvertMultiArrayToSingleArray(multiArr [][]float64) []float64 {
 

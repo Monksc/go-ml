@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eac7c5b1-eb0a-4816-94b4-10f887683e3a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main.go" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActivationFunctions.go" afterPath="$PROJECT_DIR$/ActivationFunctions.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConvolutionalNeuralNetwork.go" afterPath="$PROJECT_DIR$/ConvolutionalNeuralNetwork.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Layer.go" afterPath="$PROJECT_DIR$/Layer.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NNHelper.go" afterPath="$PROJECT_DIR$/NNHelper.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeuralNetwork.go" afterPath="$PROJECT_DIR$/NeuralNetwork.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Neuron.go" afterPath="$PROJECT_DIR$/Neuron.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReadingDirectory.go" afterPath="$PROJECT_DIR$/ReadingDirectory.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReadingImage.go" afterPath="$PROJECT_DIR$/ReadingImage.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/go-ml.go" afterPath="$PROJECT_DIR$/go-ml.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/go-ml_test.go" afterPath="$PROJECT_DIR$/go-ml_test.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,22 +35,121 @@
       <file leaf-file-name="go-ml.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/go-ml.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            <state relative-caret-position="0">
+              <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Layer.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Layer.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
               <folding>
-                <element signature="e#14#26#0" expanded="true" />
+                <element signature="n#!!block;n#NewLayer#0" expanded="false" />
+                <element signature="n#!!block;n#FeedForward#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="go-ml_test.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NeuralNetwork.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NeuralNetwork.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Neuron.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Neuron.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+              <folding>
+                <element signature="e#22#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NNHelper.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NNHelper.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+              <folding>
+                <element signature="n#!!block;n#NNHelperConvertMultiArrayToSingleArray#0" expanded="false" />
+                <element signature="n#!!block;n#NNHelperGetExpectedOutputs#0" expanded="false" />
+                <element signature="n#!!block;n#NNHelperGetBestIndexAndVaue#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadingDirectory.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ReadingDirectory.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+              <folding>
+                <element signature="e#12#42#0" expanded="true" />
+                <element signature="n#!!block;n#ReadingDirectorySearchFiles#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadingImage.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ReadingImage.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+              <folding>
+                <element signature="e#12#133#0" expanded="true" />
+                <element signature="n#!!block;n#getDifferanceInFourArrayValues#0" expanded="false" />
+                <element signature="n#!!block;n#getDifferanceValues#0" expanded="false" />
+                <element signature="n#!!block;n#ReadingImageGetChangeValues#0" expanded="false" />
+                <element signature="n#!!block;n#ReadingImageGetImage#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConvolutionalNeuralNetwork.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConvolutionalNeuralNetwork.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+              <folding>
+                <element signature="n#!!block;n#convertSectionOfAMultiArrayToSingleArray#0" expanded="false" />
+                <element signature="n#!!block;n#getBestIndexAndValueOfArray#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="go-ml_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/go-ml_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+            <state relative-caret-position="0">
+              <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
               <folding>
-                <element signature="e#14#30#0" expanded="true" />
+                <element signature="e#12#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,21 +176,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ActivationFunctions.go" />
         <option value="$PROJECT_DIR$/Test.go" />
         <option value="$PROJECT_DIR$/Shape.go" />
-        <option value="$PROJECT_DIR$/NNHelper.go" />
         <option value="$PROJECT_DIR$/Test2.go" />
-        <option value="$PROJECT_DIR$/ReadingImage.go" />
-        <option value="$PROJECT_DIR$/ReadingDirectory.go" />
-        <option value="$PROJECT_DIR$/NeuralNetwork.go" />
-        <option value="$PROJECT_DIR$/ConvolutionalNeuralNetwork.go" />
-        <option value="$PROJECT_DIR$/Layer.go" />
-        <option value="$PROJECT_DIR$/Neuron.go" />
         <option value="$PROJECT_DIR$/Test3.go" />
         <option value="$PROJECT_DIR$/main.go" />
-        <option value="$PROJECT_DIR$/go-ml.go" />
         <option value="$PROJECT_DIR$/go-ml_test.go" />
+        <option value="$PROJECT_DIR$/ActivationFunctions.go" />
+        <option value="$PROJECT_DIR$/ConvolutionalNeuralNetwork.go" />
+        <option value="$PROJECT_DIR$/go-ml.go" />
+        <option value="$PROJECT_DIR$/Layer.go" />
+        <option value="$PROJECT_DIR$/NeuralNetwork.go" />
+        <option value="$PROJECT_DIR$/Neuron.go" />
+        <option value="$PROJECT_DIR$/NNHelper.go" />
+        <option value="$PROJECT_DIR$/ReadingDirectory.go" />
+        <option value="$PROJECT_DIR$/ReadingImage.go" />
       </list>
     </option>
   </component>
@@ -118,6 +223,16 @@
     <panes>
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="go-ml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="go-ml" />
@@ -275,32 +390,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Shape.go" />
     <entry file="file://$PROJECT_DIR$/Test.go" />
-    <entry file="file://$PROJECT_DIR$/ReadingImage.go">
+    <entry file="file://$PROJECT_DIR$/Test2.go" />
+    <entry file="file://$PROJECT_DIR$/Test3.go" />
+    <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        <state relative-caret-position="199">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ActivationFunctions.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConvolutionalNeuralNetwork.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
           <folding>
-            <element signature="e#14#135#0" expanded="true" />
-            <element signature="n#!!block;n#getDifferanceInFourArrayValues#0" expanded="false" />
-            <element signature="n#!!block;n#getDifferanceValues#0" expanded="false" />
-            <element signature="n#!!block;n#ReadingImageGetChangeValues#0" expanded="false" />
-            <element signature="n#!!block;n#ReadingImageGetImage#0" expanded="false" />
+            <element signature="n#!!block;n#convertSectionOfAMultiArrayToSingleArray#0" expanded="false" />
+            <element signature="n#!!block;n#getBestIndexAndValueOfArray#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-ml_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          <folding>
+            <element signature="e#12#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-ml.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Layer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!block;n#NewLayer#0" expanded="false" />
+            <element signature="n#!!block;n#FeedForward#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NeuralNetwork.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Neuron.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          <folding>
+            <element signature="e#22#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NNHelper.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="76" lean-forward="false" selection-start-line="2" selection-start-column="76" selection-end-line="2" selection-end-column="76" />
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
           <folding>
             <element signature="n#!!block;n#NNHelperConvertMultiArrayToSingleArray#0" expanded="false" />
             <element signature="n#!!block;n#NNHelperGetExpectedOutputs#0" expanded="false" />
@@ -311,81 +480,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ReadingDirectory.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
           <folding>
-            <element signature="e#14#44#0" expanded="true" />
+            <element signature="e#12#42#0" expanded="true" />
             <element signature="n#!!block;n#ReadingDirectorySearchFiles#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test2.go" />
-    <entry file="file://$PROJECT_DIR$/Test3.go" />
-    <entry file="file://$PROJECT_DIR$/Neuron.go">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <element signature="e#24#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Layer.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#NewLayer#0" expanded="false" />
-            <element signature="n#!!block;n#FeedForward#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/go-ml.go">
+    <entry file="file://$PROJECT_DIR$/ReadingImage.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
           <folding>
-            <element signature="e#14#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ActivationFunctions.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConvolutionalNeuralNetwork.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#convertSectionOfAMultiArrayToSingleArray#0" expanded="false" />
-            <element signature="n#!!block;n#getBestIndexAndValueOfArray#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go-ml_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-          <folding>
-            <element signature="e#14#30#0" expanded="true" />
+            <element signature="e#12#133#0" expanded="true" />
+            <element signature="n#!!block;n#getDifferanceInFourArrayValues#0" expanded="false" />
+            <element signature="n#!!block;n#getDifferanceValues#0" expanded="false" />
+            <element signature="n#!!block;n#ReadingImageGetChangeValues#0" expanded="false" />
+            <element signature="n#!!block;n#ReadingImageGetImage#0" expanded="false" />
           </folding>
         </state>
       </provider>

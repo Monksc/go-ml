@@ -1,4 +1,4 @@
-package main
+package ml
 
 type ConvolutionalNeuralNetwork struct {
 	width, height int

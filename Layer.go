@@ -1,4 +1,4 @@
-package main
+package ml
 
 const LEARNING_RATE = 0.2 // should be 0.2
 

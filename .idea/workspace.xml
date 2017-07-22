@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="eac7c5b1-eb0a-4816-94b4-10f887683e3a" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeuralNetwork.go" afterPath="$PROJECT_DIR$/NeuralNetwork.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReadingImage.go" afterPath="$PROJECT_DIR$/ReadingImage.go" />
     </list>
+=======
+<<<<<<< HEAD
+    <list default="true" id="eac7c5b1-eb0a-4816-94b4-10f887683e3a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/go-ml.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActivationFunctions.go" afterPath="$PROJECT_DIR$/ActivationFunctions.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Neuron.go" afterPath="$PROJECT_DIR$/Neuron.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.go" afterPath="$PROJECT_DIR$/main.go" />
+    </list>
+=======
+    <list default="true" id="eac7c5b1-eb0a-4816-94b4-10f887683e3a" name="Default" comment="" />
+>>>>>>> bf8f895431f912a2d2ca74ecda426b678019461c
+>>>>>>> dc8dbdf4f38e1b8650d70142c7a7cc17677e959c
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +39,28 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
+<<<<<<< HEAD
+    <leaf>
+      <file leaf-file-name="Neuron.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Neuron.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActivationFunctions.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ActivationFunctions.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+              <folding>
+                <element signature="e#14#56#0" expanded="true" />
+                <element signature="n#!!block;n#ActivationFunctionGetRawValueOfActivationFunction#0" expanded="false" />
+              </folding>
+=======
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="database.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/database.go">
@@ -48,6 +84,7 @@
             <state relative-caret-position="90">
               <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="26" />
               <folding />
+>>>>>>> bf8f895431f912a2d2ca74ecda426b678019461c
             </state>
           </provider>
         </entry>
@@ -76,21 +113,36 @@
         <option value="$PROJECT_DIR$/Test.go" />
         <option value="$PROJECT_DIR$/Shape.go" />
         <option value="$PROJECT_DIR$/Test2.go" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/ReadingImage.go" />
+        <option value="$PROJECT_DIR$/ReadingDirectory.go" />
+        <option value="$PROJECT_DIR$/ConvolutionalNeuralNetwork.go" />
+        <option value="$PROJECT_DIR$/Test3.go" />
+=======
         <option value="$PROJECT_DIR$/Test3.go" />
         <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/go-ml_test.go" />
         <option value="$PROJECT_DIR$/ActivationFunctions.go" />
         <option value="$PROJECT_DIR$/ConvolutionalNeuralNetwork.go" />
+>>>>>>> bf8f895431f912a2d2ca74ecda426b678019461c
         <option value="$PROJECT_DIR$/go-ml.go" />
         <option value="$PROJECT_DIR$/Layer.go" />
         <option value="$PROJECT_DIR$/Neuron.go" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/ActivationFunctions.go" />
+=======
         <option value="$PROJECT_DIR$/NNHelper.go" />
         <option value="$PROJECT_DIR$/ReadingDirectory.go" />
         <option value="$PROJECT_DIR$/Make" />
         <option value="$PROJECT_DIR$/.gitignore" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/ReadingImage.go" />
         <option value="$PROJECT_DIR$/NeuralNetwork.go" />
         <option value="$PROJECT_DIR$/database.go" />
+=======
+>>>>>>> bf8f895431f912a2d2ca74ecda426b678019461c
+>>>>>>> dc8dbdf4f38e1b8650d70142c7a7cc17677e959c
       </list>
     </option>
   </component>
@@ -103,7 +155,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="563" />
+    <option name="height" value="497" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -121,7 +173,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scratches" />
+=======
+<<<<<<< HEAD
+      <pane id="Scratches" />
+=======
+>>>>>>> bf8f895431f912a2d2ca74ecda426b678019461c
+>>>>>>> dc8dbdf4f38e1b8650d70142c7a7cc17677e959c
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -147,6 +206,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+      <pane id="Scratches" />
+>>>>>>> bf8f895431f912a2d2ca74ecda426b678019461c
+>>>>>>> dc8dbdf4f38e1b8650d70142c7a7cc17677e959c
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,7 +291,7 @@
     <configuration default="false" name="go run *.go" type="GoRunFileConfiguration" factoryName="Go Single File">
       <module name="ml" />
       <working_directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/Test.go" />
+      <filePath value="$PROJECT_DIR$/main.go" />
       <method />
     </configuration>
     <list size="1">
@@ -245,13 +311,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="0" y="23" width="1280" height="563" extended-state="0" />
+=======
+    <frame x="0" y="23" width="1280" height="497" extended-state="1" />
+    <editor active="true" />
+>>>>>>> dc8dbdf4f38e1b8650d70142c7a7cc17677e959c
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="7.8125E-4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299595" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+>>>>>>> dc8dbdf4f38e1b8650d70142c7a7cc17677e959c
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> bf8f895431f912a2d2ca74ecda426b678019461c
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -262,7 +341,14 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+<<<<<<< HEAD
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299595" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+<<<<<<< HEAD
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+>>>>>>> bf8f895431f912a2d2ca74ecda426b678019461c
+>>>>>>> dc8dbdf4f38e1b8650d70142c7a7cc17677e959c
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -304,6 +390,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/database.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -319,6 +406,21 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NeuralNetwork.go">
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/go-ml.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#14#26#0" expanded="false" />
+=======
+    <entry file="file://$PROJECT_DIR$/Shape.go" />
+    <entry file="file://$PROJECT_DIR$/Test.go" />
+    <entry file="file://$PROJECT_DIR$/Test2.go" />
+    <entry file="file://$PROJECT_DIR$/Test3.go" />
+    <entry file="file://$PROJECT_DIR$/main.go">
+>>>>>>> dc8dbdf4f38e1b8650d70142c7a7cc17677e959c
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="26" />
@@ -350,9 +452,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="e#12#28#0" expanded="true" />
+>>>>>>> bf8f895431f912a2d2ca74ecda426b678019461c
+          </folding>
+>>>>>>> dc8dbdf4f38e1b8650d70142c7a7cc17677e959c
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+=======
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -364,9 +479,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="55" lean-forward="false" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+<<<<<<< HEAD
+=======
+>>>>>>> bf8f895431f912a2d2ca74ecda426b678019461c
+          <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/go-ml.go">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="180">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#26#0" expanded="false" />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          <folding>
+            <element signature="e#12#133#0" expanded="true" />
+            <element signature="n#!!block;n#getDifferanceInFourArrayValues#0" expanded="false" />
+            <element signature="n#!!block;n#getDifferanceValues#0" expanded="false" />
+            <element signature="n#!!block;n#ReadingImageGetChangeValues#0" expanded="false" />
+            <element signature="n#!!block;n#ReadingImageGetImage#0" expanded="false" />
+>>>>>>> bf8f895431f912a2d2ca74ecda426b678019461c
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-ml.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding>
+            <element signature="e#14#26#0" expanded="false" />
+          </folding>
+>>>>>>> dc8dbdf4f38e1b8650d70142c7a7cc17677e959c
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+=======
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -378,18 +544,76 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="e#12#42#0" expanded="true" />
+            <element signature="n#!!block;n#ReadingDirectorySearchFiles#0" expanded="false" />
+          </folding>
+>>>>>>> bf8f895431f912a2d2ca74ecda426b678019461c
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shape.go" />
+    <entry file="file://$PROJECT_DIR$/Test.go" />
+    <entry file="file://$PROJECT_DIR$/ReadingImage.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConvolutionalNeuralNetwork.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+>>>>>>> dc8dbdf4f38e1b8650d70142c7a7cc17677e959c
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NNHelper.go">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="30">
+          <caret line="2" column="76" lean-forward="false" selection-start-line="2" selection-start-column="76" selection-end-line="2" selection-end-column="76" />
+=======
         <state relative-caret-position="0">
           <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="n#!!block;n#NNHelperConvertMultiArrayToSingleArray#0" expanded="false" />
+            <element signature="n#!!block;n#NNHelperGetExpectedOutputs#0" expanded="false" />
+            <element signature="n#!!block;n#NNHelperGetBestIndexAndVaue#0" expanded="false" />
+          </folding>
+>>>>>>> bf8f895431f912a2d2ca74ecda426b678019461c
+>>>>>>> dc8dbdf4f38e1b8650d70142c7a7cc17677e959c
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Neuron.go">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="210">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test2.go" />
+    <entry file="file://$PROJECT_DIR$/Test3.go" />
+    <entry file="file://$PROJECT_DIR$/ActivationFunctions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48723">
+          <caret line="1" column="414" lean-forward="false" selection-start-line="1" selection-start-column="414" selection-end-line="1" selection-end-column="414" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+=======
         <state relative-caret-position="0">
           <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
         </state>
@@ -399,6 +623,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -413,24 +638,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+=======
+>>>>>>> bf8f895431f912a2d2ca74ecda426b678019461c
+          <folding />
+>>>>>>> dc8dbdf4f38e1b8650d70142c7a7cc17677e959c
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/go-ml.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+=======
     <entry file="file://$PROJECT_DIR$/Layer.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="n#!!block;n#NewLayer#0" expanded="false" />
+            <element signature="n#!!block;n#FeedForward#0" expanded="false" />
+          </folding>
+>>>>>>> bf8f895431f912a2d2ca74ecda426b678019461c
+>>>>>>> dc8dbdf4f38e1b8650d70142c7a7cc17677e959c
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NeuralNetwork.go">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="90">
           <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="26" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="51">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+>>>>>>> bf8f895431f912a2d2ca74ecda426b678019461c
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/NeuralNetwork.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+>>>>>>> dc8dbdf4f38e1b8650d70142c7a7cc17677e959c
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/database.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -442,6 +706,31 @@
             <marker date="1498957729590" expanded="true" signature="363:410" ph="update Netwo... " />
             <marker date="1498957729590" expanded="true" signature="974:996" ph="SELECT * FRO... chatRoom" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/Neuron.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ActivationFunctions.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#56#0" expanded="true" />
+            <element signature="n#!!block;n#ActivationFunctionGetRawValueOfActivationFunction#0" expanded="false" />
+          </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/ActivationFunctions.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+>>>>>>> bf8f895431f912a2d2ca74ecda426b678019461c
+>>>>>>> dc8dbdf4f38e1b8650d70142c7a7cc17677e959c
         </state>
       </provider>
     </entry>

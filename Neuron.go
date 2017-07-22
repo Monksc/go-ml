@@ -16,7 +16,7 @@ type Neuron struct {
 func NewNeuron(nextLayerSize int, activationFunction ActivationFunction) Neuron {
 	weights := make([]float64, nextLayerSize)
 
-	s1 := rand.NewSource(time.Now().UnixNano())//(1)//time.Now().UnixNano())
+	s1 := rand.NewSource(time.Now().UnixNano()) //(1)//time.Now().UnixNano())
 	r1 := rand.New(s1)
 
 	for i:=0; i < nextLayerSize; i++ {

@@ -1,4 +1,4 @@
-package main
+package ml
 
 type NeuralNetwork struct {
 	layers []Layer

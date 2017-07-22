@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package main
 
 import "fmt"
@@ -30,3 +31,6 @@ func main() {
 		fmt.Println(inputs[i], " -> ", output)
 	}
 }
+=======
+package ml
+>>>>>>> bf8f895431f912a2d2ca74ecda426b678019461c

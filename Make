@@ -1,0 +1,15 @@
+test: test_ml
+
+test_ml:
+	@( go test )
+
+
+goget:
+	@( \
+		go get github.com/github.com/Monksc/go-ml; \
+	)
+
+gogetu:
+	@( \
+		go get -u github.com/github.com/Monksc/go-ml; \
+	)

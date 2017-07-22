@@ -4,6 +4,11 @@ type NeuralNetwork struct {
 	layers []Layer
 }
 
+type DataBaseNeuralNetwork struct {
+	NeuralNetwork
+	id int
+}
+
 func NewNeuralNetwork(formation ...int) NeuralNetwork {
 	formationCount := len(formation)
 	layers := make([]Layer, formationCount)

@@ -150,7 +150,7 @@ func (layer *Layer) updateNeuronsWeights(db *sql.DB, layerId int) {
 func (network *DataBaseNeuralNetwork) UpdateLayersWeights(db *sql.DB) {
 
 	for index, layer := range network.layers {
-		rows, err := db.Query("select id from Layer where networkId = " + strconv.Itoa(int(network.id)) + " AND layerIndex = " + strconv.Itoa(index))
+		rows, err := db.Query("select id from Layer where networkId = " + strconv.Itoa(int(network.ID)) + " AND layerIndex = " + strconv.Itoa(index))
 
 		if err != nil {
 			panic(err)
@@ -224,13 +224,13 @@ func (network *DataBaseNeuralNetwork) InsertNeuralNetwork() {
 	stmt, err := db.Prepare("insert Network VALUES(layersCount) ( ? )")
 	checkErr(err)
 
-	res, err := stmt.Exec(len(network.layers), network.id)
+	res, err := stmt.Exec(len(network.layers), network.ID)
 	checkErr(err)
 
 	id, err := res.LastInsertId()
 	checkErr(err)
 
-	network.id = id
+	network.ID = id
 
 	for index, layer := range network.layers {
 		layer.insertLayer(db, id, index)

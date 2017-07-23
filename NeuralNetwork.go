@@ -6,7 +6,7 @@ type NeuralNetwork struct {
 
 type DataBaseNeuralNetwork struct {
 	NeuralNetwork
-	id int64
+	ID int64
 }
 
 func NewNeuralNetwork(formation ...int) NeuralNetwork {

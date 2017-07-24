@@ -86,6 +86,9 @@ func GetNetworkWithId(db *sql.DB, id int64) DataBaseNeuralNetwork {
 
 	layers := getLayers(db, id)
 
+	//layers = append(layers, NewLayer(3, 0, ActivationFunctionLogistic))
+
+
 	return DataBaseNeuralNetwork{NeuralNetwork{layers}, id}
 }
 func GetNetworks(db *sql.DB) []DataBaseNeuralNetwork{

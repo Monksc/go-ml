@@ -22,6 +22,16 @@ func NewNeuralNetwork(formation ...int) NeuralNetwork {
 	return NeuralNetwork{layers}
 }
 
+func (n *NeuralNetwork) GetFormation() []int {
+	var formation []int
+
+	for _, layer := range n.layers {
+		formation = append(formation, len(layer.neurons))
+	}
+
+	return formation
+}
+
 func (n *NeuralNetwork) Output(input []float64) []float64 {
 	n.layers[0].SetValues(input)
 	length := len(n.layers) - 1

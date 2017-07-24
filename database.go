@@ -43,7 +43,7 @@ func getNeurons(db *sql.DB, layerId int64) []Neuron {
 		var id int64
 		var activationFunction int
 
-		err = rows.Scan(&id, &layerId, &activationFunction)
+		err = rows.Scan(&id, &activationFunction)
 		if err != nil {
 			panic(err)
 		}

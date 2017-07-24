@@ -4,6 +4,7 @@ import (
 	"database/sql"
 	_ "github.com/go-sql-driver/mysql"
 	"strconv"
+	"fmt"
 )
 
 func getWeights(db *sql.DB, neuronId int64) []float64 {
@@ -128,9 +129,12 @@ func (neuron *Neuron) updateWeights(db *sql.DB, neuronId int) {
 func (layer *Layer) updateNeuronsWeights(db *sql.DB, layerId int) {
 
 	for index, neuron := range layer.neurons {
-		rows, err := db.Query("select id from Neuron where layerId = " + strconv.Itoa(layerId) + " AND neuronIndex = " + strconv.Itoa(index))
+
+		query := "select id from Neuron where layerId = " + strconv.Itoa(layerId) + " AND neuronIndex = " + strconv.Itoa(index
+		rows, err := db.Query(query))
 
 		if err != nil {
+			fmt.Println(query)
 			panic(err)
 		}
 

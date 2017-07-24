@@ -130,8 +130,8 @@ func (layer *Layer) updateNeuronsWeights(db *sql.DB, layerId int) {
 
 	for index, neuron := range layer.neurons {
 
-		query := "select id from Neuron where layerId = " + strconv.Itoa(layerId) + " AND neuronIndex = " + strconv.Itoa(index
-		rows, err := db.Query(query))
+		query := "select id from Neuron where layerId = " + strconv.Itoa(layerId) + " AND neuronIndex = " + strconv.Itoa(index)
+		rows, err := db.Query(query)
 
 		if err != nil {
 			fmt.Println(query)

@@ -36,7 +36,7 @@ func ActivationFunctionGetRawValueOfActivationFunction(function ActivationFuncti
 	for len(functions) > 1 { //&& didChange {
 
 		//didChange = false
-		randomValue := rand.Float64()
+		randomValue := (rand.Float64() * 100) - 50
 
 		for i := 0; i < len(functions); i++ {
 			if function(randomValue) != functions[i](randomValue) {

@@ -228,7 +228,7 @@ func (network *DataBaseNeuralNetwork) InsertNeuralNetwork() {
 		panic(err)
 	}
 
-	stmt, err := db.Prepare("insert Network VALUES(layersCount) ( ? )")
+	stmt, err := db.Prepare("insert Network(layersCount) VALUES(?)")
 	checkErr(err)
 
 	res, err := stmt.Exec(len(network.layers), network.ID)

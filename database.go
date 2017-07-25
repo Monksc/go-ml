@@ -199,8 +199,12 @@ func (neuron *Neuron) insertNeuron(db *sql.DB, layerId int64, neuronIndex int) {
 	id, err := res.LastInsertId()
 	checkErr(err)
 
+	fmt.Println("Inserted new Neuron with id", id)
+
 	for index, weight := range neuron.weights {
+		fmt.Println("Creting New Weight index", index, " with id", id)
 		insertWeight(weight, db, id, index)
+		fmt.Println("CREATED NEW WEIGHT")
 	}
 }
 func (layer *Layer) insertLayer(db *sql.DB, networkId int64, layerIndex int) {
@@ -213,7 +217,10 @@ func (layer *Layer) insertLayer(db *sql.DB, networkId int64, layerIndex int) {
 	id, err := res.LastInsertId()
 	checkErr(err)
 
+	fmt.Println("Inserted Network with ID", id)
+
 	for index, neuron := range layer.neurons {
+		fmt.Println("Inserting New Neuron with index of", index, "and id", id)
 		neuron.insertNeuron(db, id, index)
 	}
 }
@@ -237,9 +244,12 @@ func (network *DataBaseNeuralNetwork) InsertNeuralNetwork() {
 	id, err := res.LastInsertId()
 	checkErr(err)
 
+	fmt.Println("Inserted New Network id", id)
+
 	network.ID = id
 
 	for index, layer := range network.layers {
+		fmt.Println("Starting Insert New Layer Index", index, "With id", id)
 		layer.insertLayer(db, id, index)
 	}
 }

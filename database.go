@@ -217,7 +217,7 @@ func (layer *Layer) insertLayer(db *sql.DB, networkId int64, layerIndex int) {
 	id, err := res.LastInsertId()
 	checkErr(err)
 
-	fmt.Println("Inserted Network with ID", id)
+	fmt.Println("Inserted Layer with ID", id)
 
 	for index, neuron := range layer.neurons {
 		fmt.Println("Inserting New Neuron with index of", index, "and id", id)

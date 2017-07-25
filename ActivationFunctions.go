@@ -39,7 +39,7 @@ func ActivationFunctionGetRawValueOfActivationFunction(function ActivationFuncti
 		randomValue := rand.Float64()
 
 		for i := 0; i < len(functions); i++ {
-			if functions[i](randomValue) != functions[i](randomValue) {
+			if function(randomValue) != functions[i](randomValue) {
 
 				functionReplacement := functions[:i]
 				indexesReplacement := indexes[:i]

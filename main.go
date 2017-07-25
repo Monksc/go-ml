@@ -71,12 +71,15 @@ func output(network *DataBaseNeuralNetwork) {
 }
 
 func main() {
+
+	db := getDatabase()
+
 	nn := NewNeuralNetwork(2,2,1)
 	net := DataBaseNeuralNetwork{nn, 1}
 
 	insertNewNetwork := true
 	if insertNewNetwork {
-		net.InsertNeuralNetwork()
+		net.InsertNeuralNetwork(db)
 	}
 
 	willTrain := true
@@ -84,7 +87,7 @@ func main() {
 		train(&net)
 	}
 
-	net.UpdateLayersWeights(getDatabase())
+	net.UpdateLayersWeights(db)
 
 	output(&net)
 }

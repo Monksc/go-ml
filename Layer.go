@@ -1,6 +1,8 @@
 package ml
 
-const LEARNING_RATE = 0.2 // should be 0.2
+var (
+	LEARNING_RATE = 0.2 // should be 0.2
+)
 
 type Layer struct {
 	neurons []Neuron
